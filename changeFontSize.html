@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">This is text</p>
+    <button type="button" onclick="plus()">+</button> <button type="button" onclick="minus()">-</button>
+
+    <script>
+        function plus(){
+            var text = document.getElementById('text')
+            var style = window.getComputedStyle(text, null).getPropertyValue('font-size');
+            text.style.fontSize = (parseFloat(style) + 1).toString() + 'px';
+        }
+        function minus(){
+            var text = document.getElementById('text')
+            var style = window.getComputedStyle(text,null).getPropertyValue('font-size')
+            text.style.fontSize = (parseFloat(style) - 1).toString() + 'px';
+        }
+    </script>
+</body>
+</html>
