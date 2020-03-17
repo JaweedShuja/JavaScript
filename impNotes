@@ -17,4 +17,10 @@
       var x = 3**3 //(3 power 3)
       document.write(x)
       //output 27
-    
+=> 6) javaScript data types are dynamic
+      var x = 5;
+      x = "javed";
+=> 7) long values likhne ka tareeka
+      var num = 125e5
+      
+
