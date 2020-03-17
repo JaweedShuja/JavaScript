@@ -22,5 +22,9 @@
       x = "javed";
 => 7) long values likhne ka tareeka
       var num = 125e5
+=> 8) javaScript objects cannot be compared      
+      var x = new String("John");  // x is an object
+      var y = new String("John");  // y is an object
+      document.getElementById("demo").innerHTML = (x==y); //return false
       
 
