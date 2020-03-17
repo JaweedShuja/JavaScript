@@ -4,4 +4,14 @@
   var firstName;
   var firstname:
     above are two different variables
-  
+=> 4) 
+    *) pehle string agaya to sab ko concate kardega 
+    var x = "2" + 5 + 5;
+    document.write(x)
+    //output 255
+    *) bad me string ayega to pehle calculation karega then cancat karega
+    var x = 5 + 5 + "2";
+    document.write(x)
+    //output 102
+    
+    
