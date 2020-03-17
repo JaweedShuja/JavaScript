@@ -13,5 +13,8 @@
     var x = 5 + 5 + "2";
     document.write(x)
     //output 102
-    
+=> 5) ** (exponential) this is use for power
+      var x = 3**3 //(3 power 3)
+      document.write(x)
+      //output 27
     
